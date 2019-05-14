@@ -25,7 +25,7 @@ public class ImpatientWardHome {
 
 		driver.findElement(By.id("loginButton")).submit();
 	
-		String actual = driver.findElement(By.cssSelector("#home-container>h4")).getText();
-		return actual;
+		//String actual = driver.findElement(By.cssSelector("#home-container>h4")).getText();
+		return null;
 	}
 }
